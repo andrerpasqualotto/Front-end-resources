@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Front end Examples:</title>
+</head>
+<body>
+        <h1>Css Utilities:</h1><br>
+        <ul>
+            <li>
+                <h2>Global Reset</h2>
+                <pre style="display:inline-block;" class="border-gray"><code>
+    *,
+    *::before,
+    *::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    }
+                </code></pre> <br>
+                <button onclick="globalReset()">Copy to Clipboard!</button>
+            </li>  
+
+
+
+        </ul>
+
+        <h2>Box Shadow (Neomorphism)</h2>
+
+        <pre class="border-gray"><code>
+            .box-1{
+            border-radius: 50px;
+            background: #e0e0e0;
+            box-shadow:  20px 20px 60px #bebebe,
+                        -20px -20px 60px #ffffff;
+            }  
+    </code></pre>
+    <div class="box-1 flex-center">         <button onclick="boxShadow()">Copy to Clipboard!</button>   </div>
+
+    <div>
+        <button>
+            <a target="__blank" href="https://neumorphism.io/#e0e0e0">Mais exemplos - Neomorphism</a> 
+        </button>
+    </div>
+    <div>
+        <button>
+            <a target="__blank" href="https://getcssscan.com/css-box-shadow-examples">Mais exemplos - GetCSS Scan</a> 
+        </button>
+    </div>
+
+
+        
+    <h2>Image Filter Generator</h2>
+
+    <img class="img-filter" src="https://picsum.photos/200/300" alt="">
+
+
+
+
+</body>
+
+<script src="./copy.js"></script>
+</html>
+

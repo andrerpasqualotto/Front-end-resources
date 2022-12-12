@@ -1,0 +1,51 @@
+
+
+/* Global Reset: */
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+
+/* Simple box-shadow */
+.box-1{
+    width:150px;
+    height:150px;
+    margin:10px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}   
+
+.border-gray{
+    border:2px solid #e0e0e0;
+    border-radius:25px;
+    display:inline-block;
+}
+
+
+
+.flex-center {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.img-filter{
+    filter: opacity(100%);
+    transition-duration: 208ms;
+    }
+    .img:hover, .img:active, .img:focus{
+    transform: rotate(6deg) scale(1.16);
+    transition-duration: 208ms;
+    }
+
+
+button{
+    padding:5px;
+    margin:10px;
+}
